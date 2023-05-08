@@ -1,0 +1,167 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+#main {
+	display: flex;
+	position: relative;
+	height: 1500px;
+	width: 100%;
+	max-width: 1900px;
+	min-width: 1600px;
+	background-image: url(/SMF_Project/resources/dressroom/image/옷장틀1.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 61%;
+	height: 100%;
+}
+
+.leftbox {
+	width: 44%;
+	height: 50%;
+	position: absolute;
+	background-image: url(/SMF_Project/resources/dressroom/image/거울틀.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	top: 27.5%;
+	left: 25%;
+}
+
+#itemListbox {
+	display: flex;
+	align-items: flex-start;
+	width: 39%;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container2, .container3 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.rightbox, .rightboxSelectList {
+	width: 100px;
+	height: 130px;
+	margin: 5px;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	position: relative;
+}
+
+.image-container {
+	position: absolute;
+}
+
+#main img {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+
+#itemListboxList{
+	display:flex;
+	flex-wrap:wrap;
+	overflow-y: scroll;
+	height: 39%;
+}
+.itemObjectInformation{
+	font-weight: bold;
+	color: rgb(59, 59, 59);
+	white-space: nowrap;
+	font-size: 90%;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	bottom: 3%;
+}
+
+#backButton {
+    text-align: center;
+	background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+#backButton {
+    width: 120px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 40px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+}
+
+#backButton:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+
+#backButton:focus {
+    outline: none;
+}
+
+#selectbox {
+	height: 700px;
+	width: 100%;
+	max-width: 1900px;
+	min-width: 1600px;
+}
+
+#selectboxList {
+	height: 100%;
+	width: 100%;
+	position: relative;
+    display: flex;
+	flex-wrap : wrap;
+}
+
+#selectboxList img {
+	height: 300px;
+	width: 300px;
+	position: relative;
+} 
+
+#selectboxList .rightboxSelectList {
+		height: 400px;
+		width: 300px;
+		border-bottom: 2px solid black;
+		border-right: 2px solid black;
+		position: relative;
+}
+
+.itemObjectInformationName {
+	display: none;
+}
+
+#selectboxList .itemObjectInformationName {
+	display: block;
+	width: 300px;
+	font-weight: bold;
+	color: rgb(59, 59, 59);
+	font-size: 90%;
+	left: 55%;
+	transform: translateX(-50%);
+	position: absolute;
+	bottom: 13%;
+}

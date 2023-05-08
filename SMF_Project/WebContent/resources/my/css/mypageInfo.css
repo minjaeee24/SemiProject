@@ -1,0 +1,93 @@
+#mypage_content{
+    /* border: 1px solid black; */
+    margin: 0px 50px 0px 50px;
+}
+
+/* 프로필 사진 */
+#mypageInfo_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px solid #ebebeb;
+    padding: 10px;
+    
+}
+#mypageInfo_img>img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 15px;
+    /* border: 1px solid black; */
+}
+#mypageInfo_img>label{
+    cursor: pointer;
+    padding: 1px 6px;
+}
+
+#mypageInfo_content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0px 18px;
+}
+.info_title{
+    margin-bottom: 20px;
+}
+.info_title>h5{
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.infoText{
+    font-weight: 500;
+}
+
+.mypageInfo_class{
+    position: relative;
+    margin: 10px 0px 15px 0px;
+}
+
+.mypageInfo_class>button{
+    position: absolute;
+    right: 0px;
+    bottom: 8px;
+}
+.mypageInfo_class>p{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(34,34,34,.5);
+    margin-bottom: 0px;
+}
+#agree_radio_box{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    bottom: -7px;
+}
+#memberDel_div{
+    margin-top: 50px;
+    text-align: right;
+}
+#memberDel>a{
+    font-size: 11px;
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+}
+#updateMyImg{
+    display: none;
+}
+#email_agreeTitle{
+    margin-top: 35px;
+}
+#emailTitle{
+    font-size: 16px;
+}
+.agreeRadioBox>label{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.infoRadio{
+    margin-right: 5px;
+}

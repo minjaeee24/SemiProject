@@ -1,0 +1,119 @@
+.address_area{
+    border: 2px solid #ebebeb;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 10px 10px;
+    /* background-color: #ebebeb; */
+}
+
+.address_area_right{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.address_area>p{
+    margin-left: 10px;
+}
+.address_area>p:not(.addrName){
+    font-size: 12px;
+}
+.addressBtn_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+#address_wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#addressLine{
+	border-bottom: 2px solid black;
+	margin-top: 15px;
+    margin-bottom: 15px;
+}
+.addrTop{
+    margin-bottom: 15px;
+}
+.address_area_left>p{
+    margin: 0px;
+}
+.addrName{
+    font-size: 18px;
+	font-weight: bold;
+}
+.address_null>p{
+    font-weight: 700;
+}
+#default_addrText{
+    border-radius: 7px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px;
+    font-size: 12px;
+    vertical-align: text-top;
+}
+
+/* 새 주소 추가 모달창 */
+.modal-body input{
+    border: 0px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.modal-body input:focus-visible{
+    outline: none;
+}
+
+#postcode_wrapper{
+    position: relative;
+}
+#postcode_wrapper>button{
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+}
+
+.mypageBtn{
+    font-size: 15px;
+}
+
+/* 모달창 수정하기 */
+.modal-content.add-content{
+    border-radius: 10px;
+
+}
+
+.modal-body .inputBox{
+    border: 0px;
+    border-bottom: 2px solid #ebebeb;
+    width: 100%;
+}
+.modal-body .inputBox:focus-visible{
+    outline: none;
+}
+button:focus{
+    outline: none !important;
+}
+
+.modal-body .inputBoxSelect{
+    border-bottom: 2px solid #222;
+    
+}
+.modal-body .inputBoxSelectTitle{
+    color: #222;
+    font-weight: 600;
+
+}
+.modal-title{
+    font-weight: 700;
+}
+.modal-body .postcodeBtn{
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fafafa;
+    font-weight: 600;
+}

@@ -1,0 +1,25 @@
+#mypage_content{
+    /* border: 1px solid black; */
+    margin: 50px 50px 0px 50px;
+}
+
+#accounts_card{
+    display: flex;
+    justify-content: space-around;
+}
+form p{
+    margin: 0;
+}
+.accountCardTitle{
+    font-weight: 700;
+    font-size: 23px;
+}
+form>div>p{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(34,34,34,.5);
+    margin-bottom: 0px;
+}
+form>div{
+    margin-top: 20px;
+}
